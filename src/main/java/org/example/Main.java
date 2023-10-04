@@ -7,5 +7,7 @@ public class Main {
         int result = calculator.add(2, 6);
 
         System.out.println(result);
+
+        System.out.println("This is a log!");
     }
 }
