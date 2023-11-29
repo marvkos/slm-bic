@@ -14,7 +14,7 @@ class CalculatorTest {
         int b = 7;
 
         // Act
-        int result = calculator.add(a, b);
+        int result = calculator.Add(a, b);
 
         // Assert
         assertEquals(12, result);
@@ -26,7 +26,7 @@ class CalculatorTest {
         int a = -5;
         int b = -7;
 
-        int result = calculator.add(a, b);
+        int result = calculator.Add(a, b);
 
         assertEquals(-12, result);
     }
@@ -37,7 +37,7 @@ class CalculatorTest {
         int a = -5;
         int b = 7;
 
-        int result = calculator.add(a, b);
+        int result = calculator.Add(a, b);
 
         assertEquals(2, result);
     }
